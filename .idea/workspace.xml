@@ -76,14 +76,7 @@
     "project.structure.side.proportion": "0.4183908"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RxJavaAppDemo006">
-    <configuration name="RxJavaAppDemo002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RxJavaAppDemo002" />
-      <module name="Java_rxjava_v3.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RxJavaAppDemo007">
     <configuration name="RxJavaAppDemo003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RxJavaAppDemo003" />
       <module name="Java_rxjava_v3.main" />
@@ -112,13 +105,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RxJavaAppDemo007" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RxJavaAppDemo007" />
+      <module name="Java_rxjava_v3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RxJavaAppDemo007" />
         <item itemvalue="Application.RxJavaAppDemo006" />
         <item itemvalue="Application.RxJavaAppDemo005" />
         <item itemvalue="Application.RxJavaAppDemo004" />
         <item itemvalue="Application.RxJavaAppDemo003" />
-        <item itemvalue="Application.RxJavaAppDemo002" />
       </list>
     </recent_temporary>
   </component>

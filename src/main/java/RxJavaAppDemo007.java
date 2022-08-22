@@ -3,6 +3,7 @@ import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.core.Observer;
 import io.reactivex.rxjava3.disposables.CompositeDisposable;
 import io.reactivex.rxjava3.disposables.Disposable;
+import io.reactivex.rxjava3.observers.ResourceObserver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -59,7 +60,26 @@ public class RxJavaAppDemo007 {
     public static void disposableExample3() {
         Observable<Long> seconds = Observable.interval(1, TimeUnit.SECONDS);
 
-        
+        ResourceObserver<Long> resourceObserver = new ResourceObserver<Long>() {
+            @Override
+            public void onNext(@NonNull Long item) {
+                System.out.println("Item: " + item);
+            }
+
+            @Override
+            public void onError(@NonNull Throwable e) {
+
+            }
+
+            @Override
+            public void onComplete() {
+
+            }
+        };
+        seconds.subscribe(resourceObserver);
+        resourceObserver.dispose();
+
+
     }
 
 }
