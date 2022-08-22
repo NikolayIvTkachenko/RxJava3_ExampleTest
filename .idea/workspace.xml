@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96059967-5604-486c-a902-e11775e2e54b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RxJavaAppDemo010_BehaviorSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RxJavaAppDemo011_ReplaySubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RxJavaAppDemo012_AsyncSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RxJavaAppDemo013_CustomOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RxJavaAppDemo014_Threads.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,21 +60,7 @@
     "project.structure.side.proportion": "0.4183908"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RxJavaAppDemo012_AsyncSubject">
-    <configuration name="RxJavaAppDemo008_Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RxJavaAppDemo008_Operators" />
-      <module name="Java_rxjava_v3.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RxJavaAppDemo009_PublishSubject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RxJavaAppDemo009_PublishSubject" />
-      <module name="Java_rxjava_v3.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RxJavaAppDemo014_Threads">
     <configuration name="RxJavaAppDemo010_BehaviorSubject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RxJavaAppDemo010_BehaviorSubject" />
       <module name="Java_rxjava_v3.main" />
@@ -97,13 +82,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RxJavaAppDemo013_CustomOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RxJavaAppDemo013_CustomOperator" />
+      <module name="Java_rxjava_v3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RxJavaAppDemo014_Threads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RxJavaAppDemo014_Threads" />
+      <module name="Java_rxjava_v3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RxJavaAppDemo014_Threads" />
+        <item itemvalue="Application.RxJavaAppDemo013_CustomOperator" />
         <item itemvalue="Application.RxJavaAppDemo012_AsyncSubject" />
         <item itemvalue="Application.RxJavaAppDemo011_ReplaySubject" />
         <item itemvalue="Application.RxJavaAppDemo010_BehaviorSubject" />
-        <item itemvalue="Application.RxJavaAppDemo009_PublishSubject" />
-        <item itemvalue="Application.RxJavaAppDemo008_Operators" />
       </list>
     </recent_temporary>
   </component>
